@@ -1,6 +1,7 @@
 :root {
     --grey: #526D82;
     --turquiose: #87CBB9;
+    --lightBlue: #526D82;
 }
 
 * {
@@ -45,8 +46,37 @@
     font-size: 1.5rem;
 }
 
+/* Front Page Image */
+.frontPageImage {
+    padding-bottom: 0;
+}
+
 .frontPageImage img{
     max-width: 100%;
-    transform: translate(0, -200px);
+    position: relative;
+    top: -200px;
     z-index: 0;
+    padding-bottom: 0;
 }
+
+/* About Me */
+.aboutMe {
+    display: flex;
+    transform: translate(0, -150px);
+}
+
+.aboutMe h2 {
+    border-right: .25rem solid var(--lightBlue);
+    color: var(--lightBlue);
+    font-size: 3rem;
+    padding-right: 1rem;
+    text-align: right;
+    width: 20%;
+}
+
+.aboutMe p {
+    margin-left: 1rem;
+    width: 75%;
+}
+
+/* Work */
