@@ -103,3 +103,17 @@
     position: relative;
     max-width: 100%;
 }
+
+/* Footer */
+.footer {
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 0.75rem;
+}
